@@ -2,6 +2,8 @@
 
 This Repo has Next JS, Ant Design (less) and Express Router 
 
+Next.js Version 9.1.7 (Suport Optional Chaining)
+
 ## How to use
 
 ```bash

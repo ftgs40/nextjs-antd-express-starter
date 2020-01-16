@@ -1,11 +1,9 @@
 import React from 'react'
 
-const HomeComponent = () => {
-  return (
-    <div>
-      HomeComponent
-    </div>
-  )
-}
+const HomeComponent = () => (
+  <div>
+    HomeComponent
+  </div>
+)
 
 export default HomeComponent
