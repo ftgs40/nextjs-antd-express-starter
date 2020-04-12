@@ -1,0 +1,14 @@
+version: '3.4'
+services:
+  node:
+    container_name: 'my_next'
+    image: node:12.14-slim
+    user: node
+    working_dir: /usr/src/app
+    environment:
+      - NODE_ENV=dev
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - '3000:3000'
+    command: ['/bin/sh', '-c', 'yarn && yarn dev']
